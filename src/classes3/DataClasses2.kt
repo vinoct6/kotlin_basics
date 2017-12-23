@@ -4,7 +4,7 @@ package classes3
 data class CustomerKotlin(var id: Int, var name: String, var email: String) {
 
     // You can override
-     override fun toString(): String {
+    override fun toString(): String {
         return "{\"id\" : \"$id\", \"name\":\"$name\" , \"email\": \"$email\"}"
     }
 }
@@ -24,7 +24,6 @@ fun main(args: Array<String>) {
 
     //Override properties while copying
     val customer5 = customer1.copy(email = "abc.gamil.com")
-
 
     println(customer1)
 }
