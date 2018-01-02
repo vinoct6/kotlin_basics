@@ -23,9 +23,9 @@ fun main(args: Array<String>) {
     println(population)
 
 
-    val customerKotlin = CustomerKotlin(1, "Vinoth", "abc@gmail.com")
+    val customerKotlin = CustomerKotlin(1, "Vinoth", "abc@gmail.com","55")
 
-    val (id, name, email) = CustomerKotlin(1, "Vinoth", "abc@gmail.com")
+    val (id, name, email) = CustomerKotlin(1, "Vinoth", "abc@gmail.com","55")
 
 
     val listOfCapitalAndCountries = listOf(Pair("Madrid", "Spain"), "New York" to "USA")
