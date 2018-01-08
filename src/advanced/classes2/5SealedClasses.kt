@@ -41,6 +41,4 @@ fun main(args: Array<String>) {
         is PageResult1.Success -> println(p.content)
         is PageResult1.Error -> println(p.code)
     }
-
-
 }
